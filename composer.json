@@ -1,0 +1,35 @@
+{
+    "name": "jazzman/wp-memcached",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Vasyl Sokolyk",
+            "email": "vsokolyk@gmail.com"
+        }
+    ],
+    "require": {
+        "cache/memcached-adapter": "^1.0"
+    },
+    "suggest": {
+        "ext-memcached": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "dg/composer-cleaner": "^2.0",
+        "symfony/var-dumper": "^4.2",
+        "roots/wordpress": "^4"
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/wp/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "vendor/wp/plugins/{$name}/": ["type:wordpress-plugin"],
+            "vendor/wp/themes/{$name}/": ["type:wordpress-theme"]
+        },
+        "wordpress-install-dir": "vendor/wp"
+    },
+    "autoload": {
+        "psr-4": {
+            "JazzMan\\WPMemcached\\":""
+        }
+    }
+}
