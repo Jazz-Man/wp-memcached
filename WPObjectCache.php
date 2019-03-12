@@ -168,7 +168,7 @@ class WPObjectCache
      * @param string $key        the key under which to store the value
      * @param mixed  $value      the value to store
      * @param string $group      the group value appended to the $key
-     * @param int    $expiration the expiration time, defaults to 0
+     * @param int|string    $expiration the expiration time, defaults to 0
      * @param string $server_key the key identifying the server to store the value on
      * @param bool   $byKey      True to store in internal cache by key; false to not store by key
      *
@@ -454,7 +454,7 @@ class WPObjectCache
      * @param string $key        the key under which to store the value
      * @param mixed  $value      the value to store
      * @param string $group      the group value appended to the $key
-     * @param int    $expiration the expiration time, defaults to 0
+     * @param int|string    $expiration the expiration time, defaults to 0
      * @param string $server_key the key identifying the server to store the value on
      * @param bool   $byKey      True to store in internal cache by key; false to not store by key
      *
@@ -1248,7 +1248,7 @@ class WPObjectCache
      * @param mixed  $value      the value to store
      * @param string $group      the group value appended to the $key
      * @param bool   $byKey      True to store in internal cache by key; false to not store by key
-     * @param int    $expiration the expiration time, defaults to 0
+     * @param int|string    $expiration the expiration time, defaults to 0
      *
      * @return bool returns TRUE on success or FALSE on failure
      */
@@ -1314,7 +1314,7 @@ class WPObjectCache
      * @param string $key        the key under which to store the value
      * @param mixed  $value      the value to store
      * @param string $group      the group value appended to the $key
-     * @param int    $expiration the expiration time, defaults to 0
+     * @param int|string    $expiration the expiration time, defaults to 0
      * @param string $server_key the key identifying the server to store the value on
      * @param bool   $byKey      True to store in internal cache by key; false to not store by key
      *
@@ -1383,7 +1383,7 @@ class WPObjectCache
      *
      * @param array        $items      an array of key/value pairs to store on the server
      * @param string|array $groups     group(s) to merge with key(s) in $items
-     * @param int          $expiration the expiration time, defaults to 0
+     * @param int|string          $expiration the expiration time, defaults to 0
      * @param string       $server_key the key identifying the server to store the value on
      * @param bool         $byKey      True to store in internal cache by key; false to not store by key
      *
