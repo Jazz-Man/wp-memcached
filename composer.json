@@ -1,6 +1,6 @@
 {
     "name": "jazzman/wp-memcached",
-    "license": "GPL-2.0",
+    "license": "GPL-3.0+",
     "authors": [
         {
             "name": "Vasyl Sokolyk",
@@ -8,8 +8,7 @@
         }
     ],
     "require": {
-    },
-    "suggest": {
+        "php": ">=7.0",
         "ext-memcached": "*"
     },
     "require-dev": {
