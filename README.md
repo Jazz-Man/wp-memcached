@@ -1,0 +1,2 @@
+# wp-memcached
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/87134e8502934dac896d70499acaf6f7)](https://app.codacy.com/app/vsokolyk/wp-memcached?utm_source=github.com&utm_medium=referral&utm_content=Jazz-Man/wp-memcached&utm_campaign=Badge_Grade_Dashboard)
